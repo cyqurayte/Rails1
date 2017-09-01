@@ -124,3 +124,683 @@ Processing by StaticPagesController#about as HTML
 Completed 200 OK in 33ms (Views: 29.9ms)
 
 
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 18:28:40 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 39ms (Views: 34.8ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 18:31:43 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 112ms (Views: 98.8ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 18:33:04 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 36ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "	color: red": expected "{", was ";"):
+    4:     <title>Nameofapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/static_pages.scss:6
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__732536666491041898_70245923406780'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 18:33:23 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 36ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "	color: red": expected "{", was ""):
+    4:     <title>Nameofapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/static_pages.scss:7
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__732536666491041898_70245908187780'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 18:34:23 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 34ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "	color: red": expected "{", was ""):
+    4:     <title>Nameofapp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/static_pages.scss:7
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__732536666491041898_70245912192160'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 18:34:48 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 61ms (Views: 56.6ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2017-09-01 18:37:36 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 36ms (Views: 32.2ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2017-09-01 18:37:40 +0200
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 27ms (Views: 24.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 19:08:32 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (46.8ms)
+Completed 500 Internal Server Error in 70ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery3' with type 'application/javascript'
+Checked in these paths: 
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/config
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/images
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/stylesheets
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/node_modules):
+    6: <h1>Welcome to Bike Berlin</h1>
+    7: <h2>Your source for used bikes in Berlin</h2>
+    8: 
+    9: <%= image_tag("bike.jpg") %>
+  
+app/assets/javascripts/application.js:15
+app/views/static_pages/index.html.erb:9:in `_app_views_static_pages_index_html_erb___1872440902033863267_70245923580140'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 19:12:42 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (17.6ms)
+Completed 500 Internal Server Error in 30ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery3' with type 'application/javascript'
+Checked in these paths: 
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/config
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/images
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/stylesheets
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/node_modules):
+    6: <h1>Welcome to Bike Berlin</h1>
+    7: <h2>Your source for used bikes in Berlin</h2>
+    8: 
+    9: <%= image_tag("bike.jpg") %>
+  
+app/assets/javascripts/application.js:15
+app/views/static_pages/index.html.erb:9:in `_app_views_static_pages_index_html_erb___1872440902033863267_70245909138640'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 19:12:53 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (10.6ms)
+Completed 500 Internal Server Error in 19ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery3' with type 'application/javascript'
+Checked in these paths: 
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/config
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/images
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/stylesheets
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/node_modules):
+    6: <h1>Welcome to Bike Berlin</h1>
+    7: <h2>Your source for used bikes in Berlin</h2>
+    8: 
+    9: <%= image_tag("bike.jpg") %>
+  
+app/assets/javascripts/application.js:15
+app/views/static_pages/index.html.erb:9:in `_app_views_static_pages_index_html_erb___1872440902033863267_70245881842920'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 19:14:00 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (15.5ms)
+Completed 500 Internal Server Error in 25ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery3' with type 'application/javascript'
+Checked in these paths: 
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/config
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/images
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/stylesheets
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/node_modules):
+    6: <h1>Welcome to Bike Berlin</h1>
+    7: <h2>Your source for used bikes in Berlin</h2>
+    8: 
+    9: <%= image_tag("bike.jpg") %>
+  
+app/assets/javascripts/application.js:15
+app/views/static_pages/index.html.erb:9:in `_app_views_static_pages_index_html_erb___1872440902033863267_70245909316180'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 19:14:13 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (13.3ms)
+Completed 500 Internal Server Error in 24ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery3' with type 'application/javascript'
+Checked in these paths: 
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/config
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/images
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/stylesheets
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/node_modules):
+    6: <h1>Welcome to Bike Berlin</h1>
+    7: <h2>Your source for used bikes in Berlin</h2>
+    8: 
+    9: <%= image_tag("bike.jpg") %>
+  
+app/assets/javascripts/application.js:15
+app/views/static_pages/index.html.erb:9:in `_app_views_static_pages_index_html_erb___1872440902033863267_70245908829160'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 19:21:43 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (16.2ms)
+Completed 500 Internal Server Error in 28ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery3' with type 'application/javascript'
+Checked in these paths: 
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/config
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/images
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/stylesheets
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/node_modules):
+    6: <h1>Welcome to Bike Berlin</h1>
+    7: <h2>Your source for used bikes in Berlin</h2>
+    8: 
+    9: <%= image_tag("bike.jpg") %>
+  
+app/assets/javascripts/application.js:15
+app/views/static_pages/index.html.erb:9:in `_app_views_static_pages_index_html_erb___1872440902033863267_70245913587040'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 19:22:21 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (15.3ms)
+Completed 500 Internal Server Error in 26ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery3' with type 'application/javascript'
+Checked in these paths: 
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/config
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/images
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/stylesheets
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/node_modules):
+    6: <h1>Welcome to Bike Berlin</h1>
+    7: <h2>Your source for used bikes in Berlin</h2>
+    8: 
+    9: <%= image_tag("bike.jpg") %>
+  
+app/assets/javascripts/application.js:15
+app/views/static_pages/index.html.erb:9:in `_app_views_static_pages_index_html_erb___1872440902033863267_70245923652720'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 19:22:27 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 26ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery3' with type 'application/javascript'
+Checked in these paths: 
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/config
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/images
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/stylesheets
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/node_modules):
+    4:     <title>Rails1</title>
+    5: 
+    6:     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    7:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    8: 
+    9:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+   10:     <script scr="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+  
+app/assets/javascripts/application.js:15
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__732536666491041898_70245908319440'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 19:44:05 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 57ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery3' with type 'application/javascript'
+Checked in these paths: 
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/config
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/images
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/stylesheets
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/node_modules):
+    4:     <title>Rails1</title>
+    5: 
+    6:     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    7:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    8: 
+    9:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+   10:     <script scr="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+  
+app/assets/javascripts/application.js:15
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__732536666491041898_70245874915860'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 19:45:47 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 28ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery3' with type 'application/javascript'
+Checked in these paths: 
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/config
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/images
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/stylesheets
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/node_modules):
+    4:     <title>Rails1</title>
+    5: 
+    6:     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    7:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    8: 
+    9:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+   10:     <script scr="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+  
+app/assets/javascripts/application.js:15
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__732536666491041898_70245922381660'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 19:45:52 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 26ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery3' with type 'application/javascript'
+Checked in these paths: 
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/config
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/images
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/stylesheets
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/node_modules):
+    4:     <title>Rails1</title>
+    5: 
+    6:     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    7:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    8: 
+    9:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+   10:     <script scr="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+  
+app/assets/javascripts/application.js:15
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__732536666491041898_70245927023520'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 19:46:07 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 31ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery4' with type 'application/javascript'
+Checked in these paths: 
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/config
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/images
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/stylesheets
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/node_modules):
+    4:     <title>Rails1</title>
+    5: 
+    6:     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    7:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    8: 
+    9:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+   10:     <script scr="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+  
+app/assets/javascripts/application.js:15
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__732536666491041898_70245908387500'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 19:47:07 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (5.9ms)
+Completed 500 Internal Server Error in 190ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery3' with type 'application/javascript'
+Checked in these paths: 
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/config
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/images
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/stylesheets
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/node_modules):
+    4:     <title>Rails1</title>
+    5: 
+    6:     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    7:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    8: 
+    9:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+   10:     <script scr="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+  
+app/assets/javascripts/application.js:15
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__732536666491041898_70245913473240'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 19:54:19 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (10.1ms)
+Completed 500 Internal Server Error in 104ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/config
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/images
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/stylesheets
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/node_modules):
+    4:     <title>Rails1</title>
+    5: 
+    6:     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    7:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    8: 
+    9:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+   10:     <script scr="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+  
+app/assets/javascripts/application.js:15
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__732536666491041898_70245910487120'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 19:54:43 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 25ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/config
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/images
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/stylesheets
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/node_modules):
+    4:     <title>Rails1</title>
+    5: 
+    6:     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    7:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    8: 
+    9:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+   10:     <script scr="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+  
+app/assets/javascripts/application.js:15
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__732536666491041898_70245927434880'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 19:55:21 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 29ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/config
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/images
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/stylesheets
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/node_modules):
+    4:     <title>Rails1</title>
+    5: 
+    6:     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    7:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    8: 
+    9:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+   10:     <script scr="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+  
+app/assets/javascripts/application.js:15
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__732536666491041898_70245913605720'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 19:56:16 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 33ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery3' with type 'application/javascript'
+Checked in these paths: 
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/config
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/images
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/stylesheets
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/node_modules):
+    4:     <title>Rails1</title>
+    5: 
+    6:     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    7:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    8: 
+    9:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+   10:     <script scr="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+  
+app/assets/javascripts/application.js:15
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__732536666491041898_70245923872680'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 20:02:55 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 78ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery3' with type 'application/javascript'
+Checked in these paths: 
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/config
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/images
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/stylesheets
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/node_modules):
+    4:     <title>Rails1</title>
+    5: 
+    6:     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    7:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    8: 
+    9:     <%= javascript_include_tag 'application', 'data-turbolinks-track' 'default' %>
+   10:     <script scr="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+  
+app/assets/javascripts/application.js:15
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__732536666491041898_70245909612900'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 20:10:43 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 81ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery3' with type 'application/javascript'
+Checked in these paths: 
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/config
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/images
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/stylesheets
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/node_modules):
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    12:     <script scr="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+  
+app/assets/javascripts/application.js:15
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__732536666491041898_70245913145060'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 21:50:27 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 75ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'global' with type 'application/javascript'
+Checked in these paths: 
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/config
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/images
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/stylesheets
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/node_modules):
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    12:     <script scr="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+  
+app/assets/javascripts/application.js:15
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__732536666491041898_70245909106440'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 21:56:41 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 54ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery3' with type 'application/javascript'
+Checked in these paths: 
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/config
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/images
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/app/assets/stylesheets
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/chegrun/.rvm/gems/ruby-2.2.2/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/chegrun/Career Foundry/Rails/Rails1/node_modules):
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    12:     <script scr="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+  
+app/assets/javascripts/application.js:15
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__732536666491041898_70245909497300'
