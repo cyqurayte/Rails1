@@ -2,6 +2,44 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+body{
+padding-top: 70px;
+}
+
 h1 { 
 	color: red;
+}
+
+
+.navbar{
+	height: 50px;
+}
+
+.nav a{
+	font-family: Futura;
+}
+
+.navbar-collapse .nav > li > a:active{
+	color: #26CAFF;
+}
+
+.navbar-collapse .nav > li > a:visited{
+	color: #1A8BB0;
+}
+
+.glyphicon-home {
+	color: #fff;
+}
+
+
+.footer{
+	background-color: #333;
+	height: 50px;
+	text-align: center;
+}
+
+.imprint p{
+	color: #fff;
+	padding: 50 px;
 }

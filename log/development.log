@@ -804,3 +804,402 @@ Checked in these paths:
   
 app/assets/javascripts/application.js:15
 app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__732536666491041898_70245909497300'
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 23:18:17 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1007ms (Views: 754.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 23:20:22 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 41ms (Views: 37.1ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 23:30:12 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 85ms (Views: 73.5ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 23:43:01 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 79ms (Views: 68.8ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 23:43:11 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 45ms (Views: 41.2ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 23:45:46 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 43ms (Views: 40.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-01 23:48:01 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 233ms (Views: 230.0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2017-09-02 09:13:48 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 556ms (Views: 319.3ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:13:51 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 32ms (Views: 29.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:17:13 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 52ms (Views: 46.5ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:21:05 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 42ms (Views: 37.6ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:22:46 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 38ms (Views: 35.1ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:25:08 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 97ms (Views: 92.7ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:31:03 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 75ms (Views: 64.6ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:33:06 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 238ms (Views: 233.8ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:33:09 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 62ms (Views: 57.5ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:33:19 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 102ms (Views: 99.3ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:33:20 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 41ms (Views: 37.5ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:34:47 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 101ms (Views: 97.4ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:34:58 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 67ms (Views: 63.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:35:04 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 71ms (Views: 68.3ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:36:41 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 71ms (Views: 67.5ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:36:44 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 36ms (Views: 33.4ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:36:50 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 42ms (Views: 39.4ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:36:52 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 37ms (Views: 33.8ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:39:01 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 69ms (Views: 66.5ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:39:13 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 54ms (Views: 51.4ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:42:26 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 170ms (Views: 159.5ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:42:27 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 34ms (Views: 31.2ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:43:39 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 84ms (Views: 81.3ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:44:15 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 99ms (Views: 95.9ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:44:20 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 43ms (Views: 39.4ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:44:34 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 71ms (Views: 67.9ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:44:36 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 42ms (Views: 38.7ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:44:46 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 40ms (Views: 36.6ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:44:50 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 47ms (Views: 44.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:45:32 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 35ms (Views: 31.8ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2017-09-02 09:47:09 +0200
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 43ms (Views: 40.6ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2017-09-02 09:47:23 +0200
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 41.6ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:48:27 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 80ms (Views: 77.6ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:48:42 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 66ms (Views: 63.9ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:49:10 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 71ms (Views: 68.2ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:49:43 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 36ms (Views: 32.8ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:49:54 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 75ms (Views: 71.6ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:50:13 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 26ms (Views: 22.9ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:50:25 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 80ms (Views: 76.4ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:50:44 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 49ms (Views: 45.5ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:50:51 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 60ms (Views: 57.4ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:53:14 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 105ms (Views: 99.5ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:53:38 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 80ms (Views: 76.7ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:53:47 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 100ms (Views: 96.4ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:53:57 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 89ms (Views: 86.3ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:54:26 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 68ms (Views: 64.6ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:55:21 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 48ms (Views: 43.9ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:55:29 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 68ms (Views: 65.1ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:56:12 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 58ms (Views: 55.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-02 09:56:21 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 35ms (Views: 32.0ms)
+
+
