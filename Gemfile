@@ -56,8 +56,8 @@ gem 'jquery-rails'
 
 ruby '2.2.2'
 
-group :production, :default do
-  gem 'pg'
+group :production do
+  gem 'pg', '~>0.21.0'
 end
 
 
