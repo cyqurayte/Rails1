@@ -5,10 +5,6 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-group :production do
-  gem 'pg', '~> 0.21.0'
-end
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.3'
 
@@ -59,6 +55,8 @@ gem 'jquery-rails'
 
 ruby '2.4.1'
 
-
+group :production do
+  gem 'pg'
+end
 
 
