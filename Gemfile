@@ -6,11 +6,11 @@ git_source(:github) do |repo_name|
 end
 
 group :production do
-  gem 'pg'
+  gem 'pg', '~> 0.21.0'
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.2'
+gem 'rails', '~> 5.1.3'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
@@ -37,9 +37,9 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
-  gem ‘pg’
+  gem 'sqlite3'
   # Call ‘byebug’ anywhere in the code to stop execution and get a debugger console
-  gem ‘byebug’, platforms: [:mri, :mingw, :x64_mingw]
+  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
 
@@ -57,7 +57,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'jquery-rails'
 
-ruby '2.2.2'
+ruby '2.4.1'
 
 
 
