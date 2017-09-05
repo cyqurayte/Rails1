@@ -56,7 +56,6 @@ gem 'jquery-rails'
 ruby '2.4.1'
 
 group :production do
-  gem 'rails_12factor'
   gem 'pg'
 end
 
