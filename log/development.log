@@ -6834,3 +6834,884 @@ Processing by StaticPagesController#landing_page as HTML
 Completed 200 OK in 142ms (Views: 136.6ms | ActiveRecord: 0.5ms)
 
 
+Started GET "/products" for 127.0.0.1 at 2017-09-07 22:54:43 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (1.9ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 153ms (Views: 133.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2017-09-07 22:54:55 +0200
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (19.0ms)
+  Rendered products/new.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 80ms (Views: 76.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2017-09-07 22:54:58 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (1.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 66ms (Views: 61.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/products/6/edit" for 127.0.0.1 at 2017-09-07 22:54:59 +0200
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (14.1ms)
+  Rendered products/edit.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 106ms (Views: 98.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:49:06 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (1.9ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (39.4ms)
+Completed 200 OK in 171ms (Views: 149.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:49:19 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.9ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 53ms (Views: 50.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:49:24 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (1.5ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 58ms (Views: 52.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:49:28 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (1.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 79ms (Views: 73.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:49:34 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 48ms (Views: 42.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:49:41 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 30ms (Views: 28.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:49:51 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 34ms (Views: 30.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:49:53 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 60ms (Views: 57.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:49:54 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 62ms (Views: 57.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:49:55 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 67ms (Views: 62.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:49:56 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 62ms (Views: 58.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:49:58 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 59ms (Views: 55.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:49:59 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 72ms (Views: 68.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:50:02 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 56ms (Views: 50.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:50:03 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 85ms (Views: 81.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:50:04 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 48ms (Views: 45.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:50:04 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 66ms (Views: 63.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:50:04 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 80ms (Views: 74.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:50:05 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 53ms (Views: 48.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:50:05 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 50ms (Views: 46.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:50:05 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 48ms (Views: 44.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:50:05 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 61ms (Views: 57.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:50:05 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 56ms (Views: 52.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:50:05 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 47ms (Views: 43.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:50:06 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 55ms (Views: 52.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 10:50:06 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 58ms (Views: 53.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 13:56:29 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (6.6ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (99.4ms)
+Completed 200 OK in 723ms (Views: 587.7ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 13:56:35 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (1.6ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 335ms (Views: 276.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 13:58:32 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (1.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (31.5ms)
+Completed 200 OK in 324ms (Views: 303.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 13:58:38 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 310ms (Views: 303.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 13:58:42 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 51ms (Views: 48.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 14:40:31 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (1.6ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 155ms (Views: 137.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 14:45:37 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (1.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (29.5ms)
+Completed 200 OK in 183ms (Views: 163.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2017-09-08 14:46:37 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [5 times] (39.7ms)
+  Rendered products/index.html.erb within layouts/application (99.9ms)
+Completed 200 OK in 307ms (Views: 279.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 14:47:03 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 111ms (Views: 105.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 15:00:58 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  Rendered static_pages/landing_page.html.erb within layouts/application (50.8ms)
+Completed 500 Internal Server Error in 105ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected ';'
+data-slide-to="'.freeze; i++ ;@output_buffer.safe_append='">
+                              ^):
+  
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected ';'
+Started GET "/" for 127.0.0.1 at 2017-09-08 15:01:52 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected ')'
+ppend=( @products.each do i++);@output_buffer.safe_append='
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:37: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected ')'
+app/views/static_pages/landing_page.html.erb:37: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for 127.0.0.1 at 2017-09-08 15:02:17 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  Rendered static_pages/landing_page.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:11: syntax error, unexpected keyword_end
+     end 
+        ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:38: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/static_pages/landing_page.html.erb:11: syntax error, unexpected keyword_end
+app/views/static_pages/landing_page.html.erb:38: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2017-09-08 15:02:48 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 75ms (Views: 71.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 15:04:28 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.9ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 272ms (Views: 97.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 15:10:37 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (1.0ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (33.9ms)
+Completed 200 OK in 161ms (Views: 147.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 15:13:56 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  Rendered static_pages/landing_page.html.erb within layouts/application (243.5ms)
+Completed 500 Internal Server Error in 272ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '='
+@output_buffer.append=( class="active" if i == 0></li>
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+d=( class="active" if i == 0></li>
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:11: unknown regexp option - l
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:11: unmatched close parenthesis: /li>
+    <% i=i+1 );@output_buffer.safe_append='
+'.freeze;     end 
+@output_buffer.safe_append='  </
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:13: syntax error, unexpected '<'
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:14: syntax error, unexpected '<'
+  <ol class="carousel-indicators"
+   ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected '<'
+    <li data-target="#carousel-exam
+     ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected tIDENTIFIER, expecting ')'
+carousel-example-generic" data-slide-to="0" class="active"><
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected keyword_class, expecting ')'
+neric" data-slide-to="0" class="active"></li>
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected '<'
+-slide-to="0" class="active"></li>
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:16: unknown regexp option - l
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:17: syntax error, unexpected '<'
+    <li data-target="#carousel-exam
+     ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+carousel-example-generic" data-slide-to="2"></li>
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:17: syntax error, unexpected '<'
+e-generic" data-slide-to="2"></li>
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:18: unknown regexp option - l
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:19: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:21: syntax error, unexpected keyword_for, expecting keyword_do or '{' or '('
+  <!-- Wrapper for slides -->
+                  ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:22: syntax error, unexpected tIDENTIFIER, expecting ')'
+iv class="carousel-inner" role="listbox">
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:24: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+r.safe_append='	    <div class="item'.freeze;@output_buffer.
+               	              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:24: syntax error, unexpected tIDENTIFIER, expecting ')'
+utput_buffer.append=( " active" if product == @products.firs
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:26: syntax error, unexpected '<', expecting ')'
+	      <div class="carousel-caption">
+	       ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected '<', expecting ')'
+	      </div>
+	       ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:29: unknown regexp options - dv
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:32: syntax error, unexpected '<'
+  </div>
+   ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:36: unknown regexp options - pa
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:37: syntax error, unexpected '<'
+    <span class="sr-only">Previous<
+     ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:38: unknown regexp option - a
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected '<'
+  <a class="right carousel-contro
+   ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected tIDENTIFIER, expecting ')'
+="right carousel-control" href="#carousel-example-generic" r
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected tIDENTIFIER, expecting ')'
+carousel-example-generic" role="button" data-slide="next">
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected tIDENTIFIER, expecting ')'
+le-generic" role="button" data-slide="next">
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:40: syntax error, unexpected '<'
+    <span class="glyphicon glyphico
+     ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:40: syntax error, unexpected tIDENTIFIER, expecting ')'
+ glyphicon-chevron-right" aria-hidden="true"></span>
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:40: syntax error, unexpected '<'
+on-right" aria-hidden="true"></span>
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:41: unknown regexp options - pa
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:42: syntax error, unexpected '<'
+  </a>
+   ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:43: unknown regexp options - dv
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:43: unterminated string meets end of file
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:43: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '='
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:11: unknown regexp option - l
+app/views/static_pages/landing_page.html.erb:11: unmatched close parenthesis: /li>
+app/views/static_pages/landing_page.html.erb:13: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:14: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected keyword_class, expecting ')'
+app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:16: unknown regexp option - l
+app/views/static_pages/landing_page.html.erb:17: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:17: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:18: unknown regexp option - l
+app/views/static_pages/landing_page.html.erb:19: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/static_pages/landing_page.html.erb:21: syntax error, unexpected keyword_for, expecting keyword_do or '{' or '('
+app/views/static_pages/landing_page.html.erb:22: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:24: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+app/views/static_pages/landing_page.html.erb:24: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:26: syntax error, unexpected '<', expecting ')'
+app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected '<', expecting ')'
+app/views/static_pages/landing_page.html.erb:29: unknown regexp options - dv
+app/views/static_pages/landing_page.html.erb:32: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:36: unknown regexp options - pa
+app/views/static_pages/landing_page.html.erb:37: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:38: unknown regexp option - a
+app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:40: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:40: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:40: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:41: unknown regexp options - pa
+app/views/static_pages/landing_page.html.erb:42: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:43: unknown regexp options - dv
+app/views/static_pages/landing_page.html.erb:43: unterminated string meets end of file
+app/views/static_pages/landing_page.html.erb:43: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for 127.0.0.1 at 2017-09-08 15:14:38 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  Rendered static_pages/landing_page.html.erb within layouts/application (29.5ms)
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting ')'
+buffer.append=( "class="active"" if i == 0></li>
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+( "class="active"" if i == 0></li>
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:11: unknown regexp option - l
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:11: unmatched close parenthesis: /li>
+    <% i=i+1 );@output_buffer.safe_append='
+'.freeze;     end 
+@output_buffer.safe_append='  </
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:13: syntax error, unexpected '<'
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:14: syntax error, unexpected '<'
+  <ol class="carousel-indicators"
+   ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected '<'
+    <li data-target="#carousel-exam
+     ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected tIDENTIFIER, expecting ')'
+carousel-example-generic" data-slide-to="0" class="active"><
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected keyword_class, expecting ')'
+neric" data-slide-to="0" class="active"></li>
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected '<'
+-slide-to="0" class="active"></li>
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:16: unknown regexp option - l
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:17: syntax error, unexpected '<'
+    <li data-target="#carousel-exam
+     ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+carousel-example-generic" data-slide-to="2"></li>
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:17: syntax error, unexpected '<'
+e-generic" data-slide-to="2"></li>
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:18: unknown regexp option - l
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:19: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:21: syntax error, unexpected keyword_for, expecting keyword_do or '{' or '('
+  <!-- Wrapper for slides -->
+                  ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:22: syntax error, unexpected tIDENTIFIER, expecting ')'
+iv class="carousel-inner" role="listbox">
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:24: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+r.safe_append='	    <div class="item'.freeze;@output_buffer.
+               	              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:24: syntax error, unexpected tIDENTIFIER, expecting ')'
+utput_buffer.append=( " active" if product == @products.firs
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:26: syntax error, unexpected '<', expecting ')'
+	      <div class="carousel-caption">
+	       ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected '<', expecting ')'
+	      </div>
+	       ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:29: unknown regexp options - dv
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:32: syntax error, unexpected '<'
+  </div>
+   ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:36: unknown regexp options - pa
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:37: syntax error, unexpected '<'
+    <span class="sr-only">Previous<
+     ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:38: unknown regexp option - a
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected '<'
+  <a class="right carousel-contro
+   ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected tIDENTIFIER, expecting ')'
+="right carousel-control" href="#carousel-example-generic" r
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected tIDENTIFIER, expecting ')'
+carousel-example-generic" role="button" data-slide="next">
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected tIDENTIFIER, expecting ')'
+le-generic" role="button" data-slide="next">
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:40: syntax error, unexpected '<'
+    <span class="glyphicon glyphico
+     ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:40: syntax error, unexpected tIDENTIFIER, expecting ')'
+ glyphicon-chevron-right" aria-hidden="true"></span>
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:40: syntax error, unexpected '<'
+on-right" aria-hidden="true"></span>
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:41: unknown regexp options - pa
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:42: syntax error, unexpected '<'
+  </a>
+   ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:43: unknown regexp options - dv
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:43: unterminated string meets end of file
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:43: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:11: unknown regexp option - l
+app/views/static_pages/landing_page.html.erb:11: unmatched close parenthesis: /li>
+app/views/static_pages/landing_page.html.erb:13: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:14: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected keyword_class, expecting ')'
+app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:16: unknown regexp option - l
+app/views/static_pages/landing_page.html.erb:17: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:17: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:18: unknown regexp option - l
+app/views/static_pages/landing_page.html.erb:19: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/static_pages/landing_page.html.erb:21: syntax error, unexpected keyword_for, expecting keyword_do or '{' or '('
+app/views/static_pages/landing_page.html.erb:22: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:24: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+app/views/static_pages/landing_page.html.erb:24: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:26: syntax error, unexpected '<', expecting ')'
+app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected '<', expecting ')'
+app/views/static_pages/landing_page.html.erb:29: unknown regexp options - dv
+app/views/static_pages/landing_page.html.erb:32: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:36: unknown regexp options - pa
+app/views/static_pages/landing_page.html.erb:37: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:38: unknown regexp option - a
+app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:40: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:40: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:40: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:41: unknown regexp options - pa
+app/views/static_pages/landing_page.html.erb:42: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:43: unknown regexp options - dv
+app/views/static_pages/landing_page.html.erb:43: unterminated string meets end of file
+app/views/static_pages/landing_page.html.erb:43: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for 127.0.0.1 at 2017-09-08 15:14:59 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+ '"class="active"' if i == 0></li>
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:11: unknown regexp option - l
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:11: unmatched close parenthesis: /li>
+    <% i=i+1 );@output_buffer.safe_append='
+'.freeze;     end 
+@output_buffer.safe_append='  </
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:13: syntax error, unexpected '<'
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:14: syntax error, unexpected '<'
+  <ol class="carousel-indicators"
+   ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected '<'
+    <li data-target="#carousel-exam
+     ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected tIDENTIFIER, expecting ')'
+carousel-example-generic" data-slide-to="0" class="active"><
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected keyword_class, expecting ')'
+neric" data-slide-to="0" class="active"></li>
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected '<'
+-slide-to="0" class="active"></li>
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:16: unknown regexp option - l
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:17: syntax error, unexpected '<'
+    <li data-target="#carousel-exam
+     ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+carousel-example-generic" data-slide-to="2"></li>
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:17: syntax error, unexpected '<'
+e-generic" data-slide-to="2"></li>
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:18: unknown regexp option - l
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:19: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:21: syntax error, unexpected keyword_for, expecting keyword_do or '{' or '('
+  <!-- Wrapper for slides -->
+                  ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:22: syntax error, unexpected tIDENTIFIER, expecting ')'
+iv class="carousel-inner" role="listbox">
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:24: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+r.safe_append='	    <div class="item'.freeze;@output_buffer.
+               	              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:24: syntax error, unexpected tIDENTIFIER, expecting ')'
+utput_buffer.append=( " active" if product == @products.firs
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:26: syntax error, unexpected '<', expecting ')'
+	      <div class="carousel-caption">
+	       ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected '<', expecting ')'
+	      </div>
+	       ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:29: unknown regexp options - dv
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:32: syntax error, unexpected '<'
+  </div>
+   ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:36: unknown regexp options - pa
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:37: syntax error, unexpected '<'
+    <span class="sr-only">Previous<
+     ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:38: unknown regexp option - a
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected '<'
+  <a class="right carousel-contro
+   ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected tIDENTIFIER, expecting ')'
+="right carousel-control" href="#carousel-example-generic" r
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected tIDENTIFIER, expecting ')'
+carousel-example-generic" role="button" data-slide="next">
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected tIDENTIFIER, expecting ')'
+le-generic" role="button" data-slide="next">
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:40: syntax error, unexpected '<'
+    <span class="glyphicon glyphico
+     ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:40: syntax error, unexpected tIDENTIFIER, expecting ')'
+ glyphicon-chevron-right" aria-hidden="true"></span>
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:40: syntax error, unexpected '<'
+on-right" aria-hidden="true"></span>
+                              ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:41: unknown regexp options - pa
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:42: syntax error, unexpected '<'
+  </a>
+   ^
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:43: unknown regexp options - dv
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:43: unterminated string meets end of file
+/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:43: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:11: unknown regexp option - l
+app/views/static_pages/landing_page.html.erb:11: unmatched close parenthesis: /li>
+app/views/static_pages/landing_page.html.erb:13: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:14: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected keyword_class, expecting ')'
+app/views/static_pages/landing_page.html.erb:15: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:16: unknown regexp option - l
+app/views/static_pages/landing_page.html.erb:17: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:17: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:18: unknown regexp option - l
+app/views/static_pages/landing_page.html.erb:19: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/static_pages/landing_page.html.erb:21: syntax error, unexpected keyword_for, expecting keyword_do or '{' or '('
+app/views/static_pages/landing_page.html.erb:22: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:24: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+app/views/static_pages/landing_page.html.erb:24: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:26: syntax error, unexpected '<', expecting ')'
+app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected '<', expecting ')'
+app/views/static_pages/landing_page.html.erb:29: unknown regexp options - dv
+app/views/static_pages/landing_page.html.erb:32: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:36: unknown regexp options - pa
+app/views/static_pages/landing_page.html.erb:37: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:38: unknown regexp option - a
+app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:39: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:40: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:40: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/landing_page.html.erb:40: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:41: unknown regexp options - pa
+app/views/static_pages/landing_page.html.erb:42: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:43: unknown regexp options - dv
+app/views/static_pages/landing_page.html.erb:43: unterminated string meets end of file
+app/views/static_pages/landing_page.html.erb:43: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for 127.0.0.1 at 2017-09-08 15:17:50 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  Rendered static_pages/landing_page.html.erb within layouts/application (10.5ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '='
+@output_buffer.append=( class="active" if i == 0 );@output_b
+                              ^):
+  
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '='
+Started GET "/" for 127.0.0.1 at 2017-09-08 15:18:04 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  Rendered static_pages/landing_page.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/chegrun/Career Foundry/Rails/Rails1/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting ')'
+buffer.append=( "class="active"" if i == 0 );@output_buffer.
+                              ^):
+  
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting ')'
+Started GET "/" for 127.0.0.1 at 2017-09-08 15:18:28 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (1.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 70ms (Views: 65.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2017-09-08 15:18:42 +0200
+Started GET "/products" for 127.0.0.1 at 2017-09-08 15:18:42 +0200
+Processing by ProductsController#index as HTML
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [5 times] (4.4ms)
+  Rendered collection of products/_product.html.erb [5 times] (1.5ms)
+  Rendered products/index.html.erb within layouts/application (18.9ms)
+  Rendered products/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 135ms (Views: 90.0ms | ActiveRecord: 0.3ms)
+
+
+Completed 200 OK in 133ms (Views: 74.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2017-09-08 15:18:43 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [5 times] (6.4ms)
+  Rendered products/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 70ms (Views: 66.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 15:18:43 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 53ms (Views: 50.1ms | ActiveRecord: 0.3ms)
+
+
