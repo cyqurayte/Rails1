@@ -7903,3 +7903,81 @@ Processing by ProductsController#index as HTML
 Completed 200 OK in 89ms (Views: 71.4ms | ActiveRecord: 9.8ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-09-10 19:35:20 +0200
+Processing by StaticPagesController#frontpage as HTML
+  Rendering static_pages/frontpage.html.erb within layouts/application
+  Rendered static_pages/frontpage.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 77ms (Views: 70.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2017-09-10 19:35:23 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (4.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (11.9ms)
+  Rendered products/index.html.erb within layouts/application (39.9ms)
+Completed 200 OK in 86ms (Views: 76.8ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/static_pages/landing_page" for 127.0.0.1 at 2017-09-10 19:35:26 +0200
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (18.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (133.0ms)
+Completed 200 OK in 655ms (Views: 414.2ms | ActiveRecord: 18.3ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2017-09-10 19:35:28 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (8.0ms)
+  Rendered products/index.html.erb within layouts/application (48.9ms)
+Completed 200 OK in 127ms (Views: 122.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-10 19:35:30 +0200
+Processing by StaticPagesController#frontpage as HTML
+  Rendering static_pages/frontpage.html.erb within layouts/application
+  Rendered static_pages/frontpage.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 64ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2017-09-10 19:35:31 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (62.3ms)
+  Rendered products/index.html.erb within layouts/application (74.0ms)
+Completed 200 OK in 118ms (Views: 111.5ms | ActiveRecord: 0.8ms)
+
+
+Started DELETE "/products/10" for 127.0.0.1 at 2017-09-10 19:37:51 +0200
+Processing by ProductsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"jCjO+xLUCiiM2QL5BFuKNepzlAPoN1nCNGaNny7/dpMiYHZu04c//LljYrdzhU6HzQwMybVcAaWbhFKEfh64/A==", "id"=>"10"}
+  [1m[36mProduct Load (1.0ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.9ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 10]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/products
+Completed 302 Found in 40ms (ActiveRecord: 4.1ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2017-09-10 19:37:52 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [5 times] (6.4ms)
+  Rendered products/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 89ms (Views: 82.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2017-09-10 19:38:05 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [5 times] (4.0ms)
+  Rendered products/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 63ms (Views: 57.4ms | ActiveRecord: 0.5ms)
+
+
