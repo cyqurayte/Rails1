@@ -7886,3 +7886,20 @@ Processing by StaticPagesController#landing_page as HTML
 Completed 200 OK in 49ms (Views: 43.6ms | ActiveRecord: 3.5ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-09-10 19:31:42 +0200
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#frontpage as HTML
+  Rendering static_pages/frontpage.html.erb within layouts/application
+  Rendered static_pages/frontpage.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 353ms (Views: 341.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2017-09-10 19:31:45 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (3.7ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (11.9ms)
+  Rendered products/index.html.erb within layouts/application (53.8ms)
+Completed 200 OK in 89ms (Views: 71.4ms | ActiveRecord: 9.8ms)
+
+
